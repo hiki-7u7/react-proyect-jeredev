@@ -1,6 +1,5 @@
-import '../App.css'
 
-const Contact = () => {
+export const Contact = () => {
     return (
         <div className="contact-container">
             <h2>Contáctame</h2>
@@ -27,5 +26,3 @@ const Contact = () => {
         </div>
     );
 }
-
-export default Contact

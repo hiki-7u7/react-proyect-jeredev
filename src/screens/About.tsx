@@ -1,7 +1,6 @@
-import '../App.css'
-// import videoreact '../assets/video/videoforreact.mp4'
+import videoreact from '../assets/video/videoforreact.mp4'
 
-const About = () => {
+export const About = () => {
     return (
         <div className="about-container">
             <header>
@@ -11,11 +10,9 @@ const About = () => {
 
             <section>
                 <article>
-                    <video controls autoPlay src="../assets/video/videoforreact.mp4"></video>
+                    <video controls autoPlay src={videoreact}></video>
                 </article>
             </section>
         </div>
     );
 }
-
-export default About

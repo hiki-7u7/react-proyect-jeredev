@@ -1,6 +1,5 @@
-import '../App.css'
 
-const Skills = () => {
+export const Skills = () => {
     return (
         <div className='skills-container'>
             <header>
@@ -13,5 +12,3 @@ const Skills = () => {
         </div>
     );
 }
-
-export default Skills
